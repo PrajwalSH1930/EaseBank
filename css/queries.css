@@ -544,6 +544,9 @@
   .container {
     margin-bottom: 12px;
   }
+  .hero-heading {
+    transform: translateY(-48px);
+  }
   .icon-mobile-nav {
     transform: translate(-24px, 6px);
   }
@@ -571,7 +574,79 @@
   .slider__btn--right {
     transform: translate(-2px, -24px);
   }
-  .hero-heading{
-    transform:translateY(-64px);
+}
+@media only screen and (max-width: 360px) {
+  html,
+  body,
+  section,
+  .app .container {
+    width: 360px;
+    text-wrap: balance;
+  }
+  .logo-field a {
+    font-size: 30px;
+  }
+  .icon-mobile-nav {
+    transform: translateX(-48px);
+    /* font-size: 20px; */
+  }
+  .primary-heading {
+    font-size: 36px;
+  }
+  .primary-head {
+    font-size: 27px;
+    width: 360px;
+  }
+  .feature-desc {
+    width: 343px;
+  }
+  .operations {
+    width: 340px;
+    transform: translateX(-20px);
+  }
+  .slider__btn--right {
+    transform: translate(-14px, -24px);
+  }
+  .star-box {
+    transform: translateX(16px);
+  }
+  .test-img--box {
+    transform: translateX(-24px);
+  }
+  .sign_up-head {
+    width: 340px;
+    font-size: 28px;
+  }
+  .footer_text {
+    transform: translateX(-12px);
+  }
+  .app {
+    width: 340px;
+  }
+  .total_balance,
+  .savings,
+  .exp_chart,
+  .operation,
+  .movements_details {
+    width: 83%;
+  }
+  .welcome {
+    font-size: 16px;
+  }
+  .profile_name {
+    font-size: 16px;
+  }
+  .profile_img {
+    width: 36px;
+    height: 36px;
+  }
+  .menu_bar--icon {
+    transform: translateX(-28px);
+  }
+  .menu_bar--icon2 {
+    transform: translateX(0);
+  }
+  .menu_bar.active {
+    width: 280px;
   }
 }
