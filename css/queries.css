@@ -613,9 +613,6 @@
   .test-img--box {
     transform: translateX(-24px);
   }
-  .test-img--box div{
-    flex-direction:column;
-  }
   .sign_up-head {
     width: 340px;
     font-size: 28px;

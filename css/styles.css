@@ -714,11 +714,12 @@ nav {
 .test-img--box {
   display: flex;
   flex-direction: column;
-}
-.test-img--box div {
-  display: flex;
   align-items: center;
   justify-content: center;
+}
+.test_images {
+  display: flex;
+  flex-direction: row;
 }
 .test-img {
   width: 64px;
