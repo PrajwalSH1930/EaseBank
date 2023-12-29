@@ -571,4 +571,7 @@
   .slider__btn--right {
     transform: translate(-2px, -24px);
   }
+  .hero-heading{
+    transform:translateY(-64px);
+  }
 }
