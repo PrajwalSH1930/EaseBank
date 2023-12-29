@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EaseBank</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/interface.css" />
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="menu_bar">
+        <div class="app_logo_field">
+          <img src="images/xing-logo-2447.png" alt="" class="logo-icon" />
+          <h2>EaseBank</h2>
+        </div>
+        <ul class="menu_list">
+          <li class="menu_item">
+            <i class="bx bxs-home"></i><span>Dashboard</span>
+          </li>
+          <li class="menu_item transfer">
+            <i class="bx bxs-send"></i><span>Transfer</span>
+          </li>
+          <li class="menu_item">
+            <i class="bx bxs-bar-chart-alt-2"></i><span>Transactions</span>
+          </li>
+          <li class="menu_item">
+            <i class="bx bxs-credit-card"></i><span>Accounts and Cards</span>
+          </li>
+          <li class="menu_item">
+            <i class="bx bx-trending-up"></i><span>Investment</span>
+          </li>
+          <div class="menu_down">
+            <li class="menu_item">
+              <i class="bx bxs-cog"></i><span>Settings</span>
+            </li>
+            <li class="menu_item">
+              <i class="bx bx-log-out"></i><span>Log out</span>
+            </li>
+          </div>
+        </ul>
+      </div>
+      <div class="profile_box">
+        <h3 class="welcome">Welcome</h3>
+        <p class="logout_timer">
+          You will be logged out in <span class="timer">5:00</span>
+        </p>
+        <div class="profile">
+          <i class="bx bxs-bell"></i>
+          <img src="images/profile.jpg" alt="" class="profile_img" />
+          <p class="profile_name">Username</p>
+          <i class="bx bx-chevron-down"></i>
+        </div>
+      </div>
+      <div class="total_balance">
+        <div class="balance_head_box">
+          <h4 class="balance_head">Total Balance</h4>
+          <div>
+            <i class="bx bx-down-arrow-circle"></i
+            ><span class="expense_percent">5.06%</span>
+          </div>
+        </div>
+        <h1 class="amount">₹ 4863</h1>
+        <div class="expenditure">
+          <div class="income">
+            <h6><i class="bx bxs-up-arrow"></i><span>Income</span></h6>
+            <h3 class="exp_amount income_amt">₹ 5000</h3>
+          </div>
+          <hr />
+          <div class="expense">
+            <h6><i class="bx bxs-down-arrow"></i><span>Expenses</span></h6>
+            <h3 class="exp_amount expense_amt">₹ 137</h3>
+          </div>
+        </div>
+      </div>
+      <div class="savings">
+        <div class="balance_head_box">
+          <h4 class="balance_head">Total Savings</h4>
+          <div>
+            <i class="bx bx-up-arrow-circle"></i
+            ><span class="savings_percent">5.06%</span>
+          </div>
+        </div>
+        <h1 class="amount save_amt">₹ 0</h1>
+        <svg width="330" height="60">
+          <g>
+            <rect
+              class="bar"
+              x="0"
+              y="50"
+              width="20"
+              height="52.85781766650922"
+            ></rect>
+            <rect
+              class="bar"
+              x="30"
+              width="20"
+              y="40"
+              height="52.85781766650922"
+            ></rect>
+            <rect
+              class="bar"
+              x="60"
+              width="20"
+              y="35"
+              height="52.85781766650922"
+            ></rect>
+            <rect
+              class="bar"
+              x="90"
+              width="20"
+              y="30"
+              height="52.85781766650922"
+            ></rect>
+            <rect
+              class="bar"
+              x="120"
+              width="20"
+              y="25"
+              height="52.85781766650922"
+            ></rect>
+            <rect
+              class="bar"
+              x="150"
+              width="20"
+              y="18"
+              height="57.85781766650922"
+            ></rect>
+            <rect
+              class="bar"
+              x="180"
+              width="20"
+              y="22"
+              height="82.38639584317434"
+            ></rect>
+            <rect
+              class="bar"
+              x="210"
+              width="20"
+              y="15"
+              height="82.38639584317434"
+            ></rect>
+            <rect
+              class="bar"
+              x="240"
+              width="20"
+              y="14"
+              height="82.38639584317434"
+            ></rect>
+            <rect
+              class="bar"
+              x="270"
+              width="20"
+              y="10"
+              height="82.38639584317434"
+            ></rect>
+            <rect
+              class="bar"
+              x="300"
+              width="20"
+              y="5"
+              height="82.38639584317434"
+            ></rect>
+          </g>
+        </svg>
+      </div>
+      <div class="exp_chart">
+        <div class="chart_name">
+          <h3>Statistics</h3>
+          <div class="expense_income">
+            <div class="bigdot white"></div>
+            <span>Expense</span>
+            <div class="bigdot blue"></div>
+            <span>Income</span>
+          </div>
+          <p class="date">01/12/2023</p>
+        </div>
+      </div>
+      <div class="operation operation--transfer">
+        <h2>Transfer money</h2>
+        <form class="form form--transfer">
+          <input type="text" class="form__input form__input--to" />
+          <input type="number" class="form__input form__input--amount" />
+          <button class="form__btn form__btn--pin-model">
+            <i class="bx bx-send"></i>
+          </button>
+          <label class="form__label">Transfer to</label>
+          <label class="form__label">Amount</label>
+        </form>
+      </div>
+      <div class="operation--transfer-pin">
+        <h2>Transfer money</h2>
+        <form class="form form--transfer">
+          <input type="password" class="form__input form__input--pin" />
+          <button class="form__btn form__btn--transfer">
+            <i class="bx bx-send"></i>
+          </button>
+          <label class="form__label">Pin</label>
+        </form>
+        <p class="wrong_pwd"></p>
+      </div>
+      <div class="operation operation--loan">
+        <h2>Request loan</h2>
+        <form class="form form--loan">
+          <input type="number" class="form__input form__input--loan-amount" />
+          <input type="password" class="form__input form__input--loan-pin" />
+          <button class="form__btn form__btn--loan">
+            <i class="bx bx-wallet"></i>
+          </button>
+          <label class="form__label form__label--loan">Amount</label>
+          <label class="form__label form__label--loan">Confirm PIN</label>
+        </form>
+      </div>
+      <div class="movements_details">
+        <h2>Transactions</h2>
+        <ul class="option_list">
+          <li class="options">All</li>
+          <li class="options exp_sort">Expenses</li>
+          <li class="options inc_rort">Income</li>
+        </ul>
+        <div class="movements_amount">
+          <div class="movements__row">
+            <div class="movements__type movements__type--deposit">
+              <i class="bx bxs-credit-card"></i>
+            </div>
+            <div class="movements__date">3 days ago</div>
+            <div class="movements__value">₹ 5000</div>
+          </div>
+          <div class="movements__row">
+            <div class="movements__type movements__type--withdrawal">
+              <i class="bx bx-transfer-alt"></i>
+            </div>
+            <div class="movements__date">3 days ago</div>
+            <div class="movements__value">-₹ 137</div>
+          </div>
+        </div>
+      </div>
+      <div class="operation operation--close">
+        <h2>Close account</h2>
+        <form class="form form--close">
+          <input type="text" class="form__input form__input--user" />
+          <input
+            type="password"
+            maxlength="6"
+            class="form__input form__close--pin"
+          />
+          <button class="form__btn form__btn--close">
+            <i class="bx bx-send"></i>
+          </button>
+          <label class="form__label">Confirm User</label>
+          <label class="form__label">Confirm PIN</label>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
